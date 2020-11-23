@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css"> BODY{ font-family: arial; } </style>
+	<meta charset="utf-8">
+	<title>MAO's Pizza</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<!--Header con Nav: menú-->
+	<header class="">
+		<div class="wrapper">
+			<div class="logo">
+				<a href="inicio.html"><img src="img/logo.png" alt="logo de la empresa. Devuelve a la página de inicio" class="logosize"></a>
+				</div>
+			<nav>
+				<a href="pizza.html"><img src="img/pizza.png" alt="Opción para buscar productos" class="logosize"></a>
+				<a href="carrito.html"><img src="img/carro.png" alt="Opción para consultar el carrito" class="logosize"></a>
+				<a href="index.html"><img id="sal" src="img/x.png" alt="Opción para iniciar sesión" class="logosize"></a>
+			</nav>
+		</div>
+	</header>
+	<!--Section con barra de título de compras: ordenar (meter al carro)-->
+	<section class="tt">
+		<div class="barra">
+			<h2 class="tt2">Haz tu orden</h2>
+		</div>
+	</section>
+	<!--Section que sirve de caja, almacena los productos, primer renglon-->
+	<section class="contenido31">
+		<!--Div con presentación del producto-->
+		<div class="tarjeta1">
+			<div class="pizzatit">
+				<h3>Pizza de aceitunas</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/uno.jpg" alt="Imagen que muestra pizza de aceitunas" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="uno" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p1" class="btn1" onclick="ag1()">Agregar al carrito</button>
+			</div>
+		</div>
+		<!--Div con presentación del producto-->
+		<div class="tarjeta2">
+			<div class="pizzatit">
+				<h3>Pizza de pepperoni</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/dos.jpg" alt="Imagen que muestra pizza de pepperoni" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="dos" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p2" class="btn1" onclick="ag2()">Agregar al carrito</button>
+			</div>
+		</div>
+		<!--Div con presentación del producto-->
+		<div class="tarjeta3">
+			<div class="pizzatit">
+				<h3>Pizza hawaiana</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/tres.jpg" alt="Imagen que muestra pizza hawaiana" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="tres" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p3" class="btn1" onclick="ag3()">Agregar al carrito</button>
+			</div>
+		</div>
+		<!--Div con presentación del producto-->
+		<div class="tarjeta4">
+			<div class="pizzatit">
+				<h3>Pizza de champiñones</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/cuatro.jpg" alt="Imagen que muestra pizza de champiñones" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="cuatro" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p4" class="btn1" onclick="ag4()">Agregar al carrito</button>
+			</div>
+		</div>
+	</section>
+	<!--Section que sirve de caja, almacena los productos, segundo renglon-->
+	<section class="contenido41">
+		<!--Div con presentación del producto-->
+		<div class="tarjeta5">
+			<div class="pizzatit">
+				<h3>Pizza mexicana</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/cinco.jpg" alt="Imagen que muestra pizza mexicana" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="cinco" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p5" class="btn1" onclick="ag5()">Agregar al carrito</button>
+			</div>
+		</div>
+		<!--Div con presentación del producto-->
+		<div class="tarjeta6">
+			<div class="pizzatit">
+				<h3>Pizza margarita</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/seis.jpeg" alt="Imagen que muestra pizza margarita" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="seis" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p6" class="btn1" onclick="ag6()">Agregar al carrito</button>
+			</div>
+		</div>
+		<!--Div con presentación del producto-->
+		<div class="tarjeta7">
+			<div class="pizzatit">
+				<h3>Pizza vegetariana</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/siete.jpeg" alt="Imagen que muestra pizza vegetariana" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="siete" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p7" class="btn1" onclick="ag7()">Agregar al carrito</button>
+			</div>
+		</div>
+		<!--Div con presentación del producto-->
+		<div class="tarjeta8">
+			<div class="pizzatit">
+				<h3>Pizza de queso</h3>
+			</div>
+			<div class="pizzaimg">
+				<img src="img/ocho.jpg" alt="Imagen que muestra pizza de queso" class="imgst">
+			</div>
+			<div class="precio">
+				<h4>Precio: $150</h4>
+				<label id="ocho" class="cant1">1</label>
+			</div>
+			<div class="agregar">
+				<button id="p8" class="btn1" onclick="ag8()">Agregar al carrito</button>
+			</div>
+		</div>
+	</section>
+	<!--Section con información de la empresa-->
+	<section class="informacion">
+		<div class="legal">
+			<label class="subs">Legal</label>
+			<br>
+			<a href="#" class="link">Aviso de privacidad</a>
+			<br>
+			<a href="#" class="link">Terminos y condiciones</a>
+		</div>
+		<div class="ayuda">
+			<label class="subs">Ayuda y comentarios</label>
+			<br>
+			<a href="contacto.html" class="link">Contáctanos</a>
+			<br>
+			<a href="#" class="link">Preguntas frecuentes</a>
+		</div>
+		<div class="redes">
+			<label>Redes sociales</label>
+			<div class="subs">
+				<a href="https://www.facebook.com" target="_blank"><img src="img/face.png" alt="Enlace a su cuenta en Facebook" class="red"></a>
+				<a href="https://twitter.com/?lang=es" target="_blank"><img src="img/tuit.png" alt="Enlace a su cuenta en Twitter" class="red"></a>
+				<a href="https://www.instagram.com" target="_blank"><img src="img/inst.png" alt="Enlace a su cuenta en Instagram" class="red"></a>
+			</div>
+		</div>
+	</section>
+	<!--Footer con actualización del sitio-->
+	<footer>
+		© 2020 MAO'S pizza. Todos los derechos reservados.
+	</footer>
+	<script src="app.js"></script>
+</body>
+</html>

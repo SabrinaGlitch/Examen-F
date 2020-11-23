@@ -1,0 +1,461 @@
+*{margin: 0; padding: 0;}
+
+body{
+	background: #fffffa; 
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+}
+
+.wrapper{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	height: 70px;
+}
+
+.contenido{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header .logo{
+	color: #f2f2f2;
+	font-size: 30px;
+	line-height: 50px;
+	float: left;
+	padding-top: 10px;
+}
+header nav {
+	float: right;
+	line-height: 50px;
+}
+header nav a{
+	display: inline-block;
+	color: #ffff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+header nav a:hover{
+	background: #67db5a;
+}
+
+.header2 {
+	position: fixed;
+	height: 100px;
+}
+
+.header2 .logo {
+	line-height: 100px;
+	font-size: 30px;
+}
+
+.header2 nav {
+	line-height: 100px;
+}
+
+.contenido1{
+	background: white;
+}
+
+.container{
+	margin: auto;
+	background-color: white;
+	width: 100%;
+}
+
+.contenido2{
+	margin-top: 20px;
+	background-color: #d16736;
+	display: flex;
+}
+.info{
+	width: 600px;
+}
+.imagen{
+	width: 600px;
+	height: 400px;
+}
+
+.banner{
+	width: 100%;
+}
+.titulo{
+	font-size: 50;
+	font-weight: bold;
+}
+.xxx{
+	margin-left: 7%;
+	margin-top: 10%;
+	font-size: 30px;
+	color: white;
+}
+.btn{
+	background-color: #59bd42;
+	margin-top: 10%;
+	outline: none;
+	color: white;
+	border-style: none;
+	border-radius: 15%;
+	width: 140px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.btn:active{
+	background-color: rgba(75, 158, 55, 3);
+}
+
+.informacion{
+	display: flex;
+	background-color: #3a3d39;
+	margin-top: 10px; 
+	justify-content: center;
+	line-height: 70px;
+}
+.legal{
+	margin-right: 230px;
+	margin-top: 30px;
+	text-align: center;
+}
+.ayuda{
+	margin-right: 230px;
+	margin-top: 30px;
+	text-align: center;
+}
+.redes{
+	margin-top: 30px;
+	text-align: center;
+}
+
+label{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.link{
+	text-decoration: none;
+	color: white;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.red{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+}
+.subs{
+	margin-top: 25px;
+	justify-content: space-around;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	line-height: 50px;
+	background-color: black;
+	color: white;
+}
+
+.tt{
+	display: flex;
+	background-color: #d16736;
+	width: 100%;
+	margin-top: 35px;
+	justify-content: center;
+}
+
+.tt2{
+	line-height: 50px;
+	color: white;
+}
+
+.contenido3{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenido4{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10%;
+}
+
+.contenido31{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenido41{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10%;
+}
+
+.tarjeta{
+	width: 250px;
+	background-color: white;
+	height: 250px;
+	float: left;
+}
+.pizzatit{
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	background-color: #e3ac34;
+}
+
+.pizzaimg{
+	width: 250px;
+	padding: 10px 10px 10px;
+}
+.imgst{
+	width: 91%;
+	height: 170px;
+}
+
+.btn1{
+	background-color: #59bd42;
+	color: white;
+	border-radius: 5%;
+	outline: none;
+	border-style: none;
+	cursor: pointer;
+	height: 30px; 
+	width: 65%;
+	margin-left: 40px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.btn1:active{
+	background-color: rgba(75, 158, 55, 3);
+}
+
+.contenido5{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.info2{
+	text-align: justify;
+	background-color: white;
+	width: 100%;
+}
+p{
+	margin-top: 2%;
+}
+.contenido6{
+	background-color: white;
+	width: 100%;
+	margin-left: 55px;
+	margin-top: 2%;
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+}
+
+.lab1, .lab2, .lab3, .lab4{
+	font-size: 20px;
+	font-weight: lighter;
+	color: #434647;
+}
+
+input, textarea{
+	outline: none;
+	width: 30%;
+	height: 25px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #a5c0c9;
+	border-radius: 3px;
+	color: #696e69;
+}
+
+.form{
+	width: 70%;
+	margin-left: 20%;
+}
+
+.txt1{
+	margin-left: 20px;
+	width: 400px;
+}
+.txt2{
+	margin-top: 15px;
+	margin-left: 41px;
+	width: 400px;
+}
+.txt3{
+	margin-top: 15px;
+	margin-left: 30px;
+	width: 400px;
+}
+.ta{
+	margin-top: 15px;
+	margin-left: 43px;
+	width: 400px;
+	height: 150px;
+}
+
+.contenido7{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+}
+
+.ubi{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contenido8{
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 55px;
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+.ingreso{
+	background-color: green;
+	width: 450px;
+	height: 450px;
+	box-shadow: 2px 2px 5px black;
+}
+.registro{
+	background-color: green;
+	width: 450px;
+	height: 500px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.enca{
+	background-color: #67db5a;
+	display: flex;
+	justify-content: center;
+}
+
+.campos{
+	text-align: center;
+	background-color: white;
+	height: 73%;
+}
+.campos2{
+	text-align: center;
+	background-color: white;
+	height: 76%;
+}
+
+.txt11, .recont, .reco, .reapp, .renombre{
+	width: 70%;
+}
+
+.lab11{
+	line-height: 2.5;	
+	color: black;
+}
+
+.inicio{
+	margin-top: 46px;
+	background-color: #dbbb44;
+	color: white;
+	border-radius: 5%;
+	outline: none;
+	border-style: none;
+	cursor: pointer;
+	height: 30px; 
+	width: 40%;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+.inicio2{
+	margin-top: 20px;
+	background-color: #dbbb44;
+	color: white;
+	border-radius: 5%;
+	outline: none;
+	border-style: none;
+	cursor: pointer;
+	height: 30px; 
+	width: 40%;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+
+.inicio:active{
+	background-color: rgba(196, 166, 53, 3);
+}
+.inicio2:active{
+	background-color: rgba(196, 166, 53, 3);
+}
+.regis{
+	font-size: 15px;
+}
+.regis2{
+	margin-top: 0;
+	font-size: 15px;
+}
+.regis3{
+	margin-top: 0;
+	font-size: 15px;
+	background-color: gray;
+}
+.lab12{
+	font-size: 18px;
+	line-height: 2.5;	
+	color: black;
+}
+
+.precio{
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.cant1{
+	color: black;
+}
